@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3308
--- Generation Time: May 05, 2025 at 11:22 AM
+-- Generation Time: May 06, 2025 at 06:06 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -255,7 +255,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `firstname`, `lastname`, `email`, `email_verified_at`, `password`, `address`, `city`, `country`, `postal`, `about`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'Admin', 'Admin', 'admin@argon.com', NULL, '$2y$10$z6ZjwJ2aYHj7WiJGNd6L9.bNbwI1EqsJcOtbxlZnWm/YrPTOR0OsS', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(1, 'admin', 'Admin', 'Admin', 'admin@argon.com', NULL, '$2y$10$z6ZjwJ2aYHj7WiJGNd6L9.bNbwI1EqsJcOtbxlZnWm/YrPTOR0OsS', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(2, 'Super Admin', 'Admin', 'Binaland', 'binaland@gmail.com', NULL, '$2a$10$UCkj8KbavOrl7AbZL/C1yOWikkBnlR7ZWUYOkbehgfz5vDN7ipwe6', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -436,7 +437,7 @@ ALTER TABLE `tipe_rumah`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables
