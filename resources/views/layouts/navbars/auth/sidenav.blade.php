@@ -61,14 +61,14 @@
                     <span class="nav-link-text ms-1">Fasilitas</span>
                 </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link {{ Route::currentRouteName() == 'artikel.layout' ? 'active' : '' }}" href="{{ route('artikel.layout') }}">
                     <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="ni ni-single-02 text-info text-sm opacity-10"></i>
                     </div>
                     <span class="nav-link-text ms-1">User</span>
                 </a>
-            </li>
+            </li> -->
         </ul>
     </div>
 </aside>
